@@ -1,10 +1,14 @@
-# Combined source download
+# Discord backup downloads
 
-All-Code.zip contains the source, tests, build scripts and documentation written
-for the Discord backup app, private Cloudflare dashboard and earlier Pokemon bot.
-It does not contain credentials, Discord messages, backups, dependencies or EXEs.
-The owner's configured email has been replaced with you@example.com for this
-public source export. Set your own dashboard username before deploying.
+- **All-Code-and-Windows-Test.zip**: all generated source, tests, documentation,
+  Cloudflare files, and an unsigned Windows x64 test EXE. Extract All and run
+  Windows/DiscordLocalBackup-Windows-x64.exe.
+- **All-Code.zip**: source-only archive.
+- **BUNDLE-SHA256SUMS.txt** and **SHA256SUMS.txt**: archive checksums.
 
-See the included TEST_RESULTS.md for validation and unverified items.
-This download branch does not change the repository main branch.
+This is a public, sanitized distribution. No credentials, Discord messages or
+backup databases are included. The owner email is replaced with you@example.com.
+Review the included TEST_RESULTS.md: local tests passed, but Windows execution,
+live Discord access and actual Cloudflare deployment remain unverified.
+
+This separate download branch preserves the repository main branch.
